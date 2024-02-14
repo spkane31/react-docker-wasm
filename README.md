@@ -1,4 +1,4 @@
-# WebAssembly example
+# React + WebAssembly + Docker example (inspired by next-js examples)
 
 This example shows how to import WebAssembly files (`.wasm`) and use them inside of a React component that is server rendered. So the WebAssembly code is executed on the server too. In the case of this example we're showing Rust compiled to WebAssembly.
 
