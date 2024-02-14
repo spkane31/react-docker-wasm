@@ -35,3 +35,8 @@ yarn build-rust
 # or
 pnpm build-rust
 ```
+
+## Build with Docker
+
+1. Build the container: `docker build . -t react-rust-wasm`
+1. Run the container with: `docker run -p 3000:3000 react-rust-wasm`
